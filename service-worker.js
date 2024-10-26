@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dreamyducks-react-app/precache-manifest.be564ff2fa0154be04fddb44a22d5c90.js"
+  "/dreamyducks-react-app/precache-manifest.6966b71a941cbaf651e54454897dfe67.js"
 );
 
 self.addEventListener('message', (event) => {

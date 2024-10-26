@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c8698d4330e49f6fce5f3dc62f06815",
+    "revision": "1e7b558c4e0c0b5489b5d041dbe35e03",
     "url": "/dreamyducks-react-app/index.html"
   },
   {
-    "revision": "1157b7587f4c9036c44b",
+    "revision": "1f6e8b4aee2576f3cc80",
     "url": "/dreamyducks-react-app/static/css/main.9bb8f643.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dreamyducks-react-app/static/js/3.7426b29a.chunk.js"
   },
   {
-    "revision": "1157b7587f4c9036c44b",
-    "url": "/dreamyducks-react-app/static/js/main.47e3db99.chunk.js"
+    "revision": "1f6e8b4aee2576f3cc80",
+    "url": "/dreamyducks-react-app/static/js/main.6bd63c53.chunk.js"
   },
   {
     "revision": "ce30e1a000c79a3c53cc",
