@@ -1,0 +1,50 @@
+.nunito-normal {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.HomepageMain p {
+    margin: 0px;
+}
+.LogoContainer {
+    min-height: 30vh;
+    line-height: 30vh;
+    background-color: violet;
+    text-align: center;
+}
+.LogoContainer p {
+    font-size: 500%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ProjectsContainer {
+    background-color: #a9f2cd;
+    height: 10vh;
+    width: 95vw;
+    border-radius: 25px;
+    margin: 16px 20px 0px 20px;
+    display: inline-block;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.Card {
+    height: 8vh;
+    width: 10vw;
+    margin: 0px 0px 0px 8px;
+    border-radius: 24px;
+    display: block;
+    justify-content: center; 
+    align-items: center;
+}
+.Card img {
+    background-color: #1b6cb0;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+}
