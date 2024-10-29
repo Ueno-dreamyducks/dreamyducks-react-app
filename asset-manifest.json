@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dreamyducks-react-app/static/css/main.42eaa1f0.chunk.css",
-    "main.js": "/dreamyducks-react-app/static/js/main.1944ead4.chunk.js",
-    "main.js.map": "/dreamyducks-react-app/static/js/main.1944ead4.chunk.js.map",
+    "main.css": "/dreamyducks-react-app/static/css/main.b6d1aa5b.chunk.css",
+    "main.js": "/dreamyducks-react-app/static/js/main.4a32f9a3.chunk.js",
+    "main.js.map": "/dreamyducks-react-app/static/js/main.4a32f9a3.chunk.js.map",
     "runtime~main.js": "/dreamyducks-react-app/static/js/runtime~main.4ee4bbe6.js",
     "runtime~main.js.map": "/dreamyducks-react-app/static/js/runtime~main.4ee4bbe6.js.map",
     "static/js/2.62ca04aa.chunk.js": "/dreamyducks-react-app/static/js/2.62ca04aa.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.44b60ca4.chunk.js": "/dreamyducks-react-app/static/js/3.44b60ca4.chunk.js",
     "static/js/3.44b60ca4.chunk.js.map": "/dreamyducks-react-app/static/js/3.44b60ca4.chunk.js.map",
     "index.html": "/dreamyducks-react-app/index.html",
-    "precache-manifest.4b501d685c7d62d5cd18c1195c0d7808.js": "/dreamyducks-react-app/precache-manifest.4b501d685c7d62d5cd18c1195c0d7808.js",
+    "precache-manifest.a162a0ad0eb9d3b0cb98433134475e04.js": "/dreamyducks-react-app/precache-manifest.a162a0ad0eb9d3b0cb98433134475e04.js",
     "service-worker.js": "/dreamyducks-react-app/service-worker.js",
-    "static/css/main.42eaa1f0.chunk.css.map": "/dreamyducks-react-app/static/css/main.42eaa1f0.chunk.css.map",
+    "static/css/main.b6d1aa5b.chunk.css.map": "/dreamyducks-react-app/static/css/main.b6d1aa5b.chunk.css.map",
     "static/media/BBLogo_TransparentBackground.png": "/dreamyducks-react-app/static/media/BBLogo_TransparentBackground.24e9c71e.png",
     "static/media/dd_Icon_removed_background.png": "/dreamyducks-react-app/static/media/dd_Icon_removed_background.fe097f6e.png"
   }
