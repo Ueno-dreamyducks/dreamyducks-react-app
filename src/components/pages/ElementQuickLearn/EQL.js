@@ -1,7 +1,7 @@
 import Header from '../../Header';
 import PolyatomicList from '../../../datas/PolyatomicList';
 import './EQL.css';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 function EQL() {
     const [shuffledQuestions, setShuffledQuestions] = useState([]);
@@ -11,6 +11,7 @@ function EQL() {
     const [element, setElement] = useState(null);
     const [questionIndex, setQuestionIndex] = useState(0);
     const [answerInput, setAnswerInput] = useState("");
+    const [time, setTime] = setInterval = useState(0);
     const [score, setScore] = useState(0);
     const [maxScore, setMaxScore] = useState(0);
     const [isHintUsed, setIsHintUsed] = useState(false);
@@ -19,6 +20,28 @@ function EQL() {
         <ElementCard name={item.name} formula={item.formula}/>
     );
 
+    const requestRef = useRef();
+    const previousTimeRef = useRef();
+
+    const animate = timeStamp => {
+        if(!previousTimeRef.current) {
+            previousTimeRef.current = timeStamp;
+        }
+        const deltaTime = (timeStamp - previousTimeRef.current) /1000; //conver to second
+
+        if(!isGameOver && deltaTime >= 0.1) {
+            setTime(prevTime => +(prevTime + deltaTime).toFixed(1));
+            previousTimeRef.current = timeStamp;
+        } 
+
+        requestRef.current = requestAnimationFrame(animate);
+    }; 
+
+    useEffect(() => { 
+            requestRef.current = requestAnimationFrame(animate);
+            return () => cancelAnimationFrame(requestRef.current); 
+    }, [isGameOver]); 
+    
     useEffect(() => {
         console.log("Initialize");
         const list = shuffleArray([...PolyatomicList]);
@@ -35,6 +58,8 @@ function EQL() {
             setAnswer(list[0].typeFormula)
         }
     }, []);
+    
+    
 
     const onSwitchGameMode = () => {
         setIsNameToFormula(prevState => {
@@ -152,6 +177,8 @@ function EQL() {
         setIsGameOver(false)
         setScore(0)
         setMaxScore(0)
+        setTime(0);
+        previousTimeRef.current = null;
       }
 
     return(
@@ -165,7 +192,8 @@ function EQL() {
                     <p>Name</p>
                 </div>
                 <div className='PlayDisplay'>
-                    <p className='score'>{score}/{maxScore}</p>
+                    <p className='timer'>Time: {time}</p>
+                    <p className='score'>Score: {score}/{maxScore}</p>
                     <h2 className='question'>{question}</h2>
                     <input 
                         type="text" 

@@ -5,13 +5,20 @@
   font-style: normal;
 }
 
+.HomepageMain {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
 .HomepageMainBody p {
     margin: 0px;
 }
 .LogoContainer {
     min-height: 30vh;
     line-height: 30vh;
-    background-color: violet;
+    background-color: wheat;
     text-align: center;
 }
 .LogoContainer p {
@@ -21,6 +28,7 @@
 }
 
 .ProjectsContainer {
+    margin: 10px auto;
     background-color: #a9f2cd;
     height: 120px;
     width: 95vw;
@@ -29,7 +37,16 @@
     flex-direction: row;
     justify-content: left;
     align-items: center;
+}
+
+.ExploreContainer {
     margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 95vw;
+    overflow: auto;
 }
 
 .Card {
@@ -50,4 +67,26 @@
 }
 .Card:hover {
     cursor: pointer;
+}
+
+.ExploreCard {
+    border-radius: 16px;
+    margin: 8px;
+    padding: 16px;
+    width: 200px;    
+    height: 300px;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    background-color: lightblue;
+    transition: width 0.3s ease;
+    text-align: left;
+}
+.ExploreCard .contents img {
+    width: 50px;
+}
+
+.ExploreCard:hover {
+    width: 300px
 }

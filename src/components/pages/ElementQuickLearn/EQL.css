@@ -25,6 +25,7 @@ button:hover {
 
 .EQLBody {
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     height: 90%;
@@ -65,8 +66,19 @@ button:hover {
     vertical-align: top;
     border-radius: 16px;
 }
+.timer {
+    float: left;
+    width: 80px;
+    text-align: left;
+    padding: 4px;
+    margin: 0px;
+    box-shadow: 4px 4px 8px;
+    border-radius: 8px;
+    background-color: #fdfd96 ;
+}
 .score {
     float: right;
+    width: 120px;
     padding: 4px;
     margin: 0px;
     box-shadow: 4px 4px 8px;
