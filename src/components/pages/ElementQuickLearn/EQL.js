@@ -14,11 +14,14 @@ function EQL() {
     const [score, setScore] = useState(0);
     const [maxScore, setMaxScore] = useState(0);
     const [isHintUsed, setIsHintUsed] = useState(false);
-    const [isGameOver, setIsGameOver] = useState(false)
+    const [isGameOver, setIsGameOver] = useState(false);
+    const cardItems = PolyatomicList.map(item =>
+        <ElementCard name={item.name} formula={item.formula}/>
+    );
 
     useEffect(() => {
         console.log("Initialize");
-        const list = shuffleArray(PolyatomicList);
+        const list = shuffleArray([...PolyatomicList]);
         setShuffledQuestions(list);
         
         setQuestionIndex(0);
@@ -37,7 +40,7 @@ function EQL() {
         setIsNameToFormula(prevState => {
             let newState = !prevState
 
-            const list = shuffleArray(PolyatomicList);
+            const list = shuffleArray([...PolyatomicList]);
             setShuffledQuestions(list);
             setElement(list[0]);
 
@@ -131,7 +134,7 @@ function EQL() {
       }
 
       const ResetGame = () => {
-        const list = shuffleArray(PolyatomicList);
+        const list = shuffleArray([...PolyatomicList]);
         setShuffledQuestions(list);
         setElement(list[0]);
 
@@ -150,10 +153,6 @@ function EQL() {
         setScore(0)
         setMaxScore(0)
       }
- 
-    const cardItems = PolyatomicList.map(item =>
-        <ElementCard name={item.name} formula={item.formula}/>
-    );
 
     return(
         <div className="EQL">
