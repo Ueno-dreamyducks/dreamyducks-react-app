@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/dreamyducks-react-app/static/css/main.05b42c25.css",
-    "main.js": "/dreamyducks-react-app/static/js/main.5736d07c.js",
+    "main.css": "/dreamyducks-react-app/static/css/main.65d344e2.css",
+    "main.js": "/dreamyducks-react-app/static/js/main.77eb1a31.js",
     "static/js/453.58b8d883.chunk.js": "/dreamyducks-react-app/static/js/453.58b8d883.chunk.js",
     "static/media/BBLogo_TransparentBackground.png": "/dreamyducks-react-app/static/media/BBLogo_TransparentBackground.a9fa9f74b41a8498e498.png",
     "static/media/dd_Icon_removed_background.png": "/dreamyducks-react-app/static/media/dd_Icon_removed_background.68e0ba3310b109bfedb7.png",
     "static/media/logo.svg": "/dreamyducks-react-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/dreamyducks-react-app/index.html",
-    "main.05b42c25.css.map": "/dreamyducks-react-app/static/css/main.05b42c25.css.map",
-    "main.5736d07c.js.map": "/dreamyducks-react-app/static/js/main.5736d07c.js.map",
+    "static/media/arrow_outward_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg": "/dreamyducks-react-app/static/media/arrow_outward_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.03c2f12b4cf9ed30cb139cd171360c32.svg",
+    "main.65d344e2.css.map": "/dreamyducks-react-app/static/css/main.65d344e2.css.map",
+    "main.77eb1a31.js.map": "/dreamyducks-react-app/static/js/main.77eb1a31.js.map",
     "453.58b8d883.chunk.js.map": "/dreamyducks-react-app/static/js/453.58b8d883.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05b42c25.css",
-    "static/js/main.5736d07c.js"
+    "static/css/main.65d344e2.css",
+    "static/js/main.77eb1a31.js"
   ]
 }
